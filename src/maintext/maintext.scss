@@ -1,22 +1,12 @@
 .container {
-  max-width: 1410px;
   margin: 0 auto;
-  position: relative;
-  display: flex;
-  padding-left: 150px;
 
 }
-.main__column1{
-  flex-grow: 1;
-}
-.main__column2{
-  flex-grow: 4;
-}
-.main__column3{
-  flex-grow: 1;
-}
+
 .main__text{
   flex-wrap: wrap;
+  margin-left: 400px;
+  max-width: 800px;
 
 }
 .main__header--caption{
@@ -24,17 +14,10 @@
 }
 .main__header {
   font-weight: bold;
-  padding-left: 340px;
   font-size: 32px;
   padding-top: 50px;
  }
-.main__header--text{
 
-
-}
-.main__header--marktext{
-
-}
  .image{
    background-image: url("../image/maintext/img/main.png");
    width: 725px;
@@ -43,7 +26,7 @@
 
  .main__header--textborder{
    border: 1px solid darkgrey;
-   width: 700px;
+   width: 800px;
    padding: 20px;
  }
 
