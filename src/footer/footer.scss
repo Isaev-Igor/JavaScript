@@ -1,28 +1,26 @@
 .footer{
-  background-color: #eee;
-  height: 50px;
-  margin-top: 20px;
+  background-color: #eeeeee;
+  height: 70px;
+  margin-top: 50px;
+  padding: 0 48px;
 }
 
 
 .page-footer{
-  padding-left: 200px;
+  padding-left: 250px;
+
 }
 .page-footer__link:hover {
-    color: #b20600;
+  color: #b20600;
   border-bottom: 1px solid red;
 }
 
 .page-footer__item:after {
-padding-left: 20px;
+  padding-left: 20px;
   content: "|";
 }
 .page-footer__list {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
