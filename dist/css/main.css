@@ -499,7 +499,8 @@ a {
 .hidden {
   width: 250px;
   position: sticky;
-  top: 0; }
+  top: 0;
+  float: left; }
 
 .hidden-menu {
   list-style: none;
@@ -581,7 +582,8 @@ a {
   max-width: 1410px;
   margin: 0 auto;
   position: relative;
-  display: flex; }
+  display: flex;
+  padding-left: 150px; }
 
 .main__column1 {
   flex-grow: 1; }
