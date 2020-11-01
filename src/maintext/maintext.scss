@@ -1,9 +1,19 @@
 .container {
   max-width: 1410px;
   margin: 0 auto;
+  position: relative;
+  display: flex;
 
 }
-
+.main__column1{
+  flex-grow: 1;
+}
+.main__column2{
+  flex-grow: 4;
+}
+.main__column3{
+  flex-grow: 1;
+}
 .main__text{
   flex-wrap: wrap;
 
@@ -14,13 +24,11 @@
 .main__header {
   font-weight: bold;
   padding-left: 340px;
-  font-size: 24px;
+  font-size: 32px;
   padding-top: 50px;
-  display: flex;
-
-}
+ }
 .main__header--text{
-  padding-left: 340px;
+
 
 }
 .main__header--marktext{

@@ -5,8 +5,53 @@ body {
   margin: 0;
 }
 
+.sitetoolbar{
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  border-collapse: collapse;
+  border-bottom: 0px solid ;
+}
+.sitetoolbar__tutorial{
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+.sitetoolbar__lang{
+  padding: 10px 18px 0;
+  border-right: 2px solid #f2efec;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.btn__lang{
+  border: none;
+  background-color: #fff;
+
+}
+.sitetoolbar__logo{
+  padding: 0 32px 0 22px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-align: left;
+}
+.sitetoolbar__sections{
+  display: flex;
+  justify-content: left;
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 18px 0;
+  white-space: nowrap;
+  text-align: left;
+}
 .sitetoolbar__sections-list {
-    list-style: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  white-space: nowrap;
+
+
   }
 a {
   text-decoration: none;
@@ -14,10 +59,6 @@ a {
 }
 .sitetoolbar__logo_normal{
   left: 60px;
-}
-.sitetoolbar{
-  display: flex;
-  padding-left: 70px;
 }
 
 .sitetoolbar__sections-list{
@@ -53,12 +94,20 @@ a {
 .headmenu__nolink::after {
   content: '↓';
 }
-
+.sitetoolbar__sticky{
+  position: sticky;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #e1e0de;
+  border: none;
+}
 // button
 *{
   box-sizing: inherit;
   transition-property: all;
-  transition-duration: .3s;
+  transition-duration: .4s;
   transition-timing-function: ease;
 
 }
@@ -78,7 +127,6 @@ a {
   position: relative;
   border: 2px solid gray;
   border-radius: 50px;
-
 
 }
 
@@ -109,7 +157,10 @@ a {
 
 }
 .button_currency{
-  padding-left: 500px;
+
+  display: inline-block;
+  white-space: nowrap;
+  border-radius: 34px;
 }
 .btn-3:hover:after {
   height:100px;
@@ -118,60 +169,12 @@ a {
   background: #e05850;
 
 }
+.btn-text{
+  padding: 10px;
+}
+
 .btn-text:hover{
   color: white;
-}
-
-* {box-sizing: border-box;}
-.sitetoolbar__form {
-  position: relative;
-  width: 300px;
-  margin: 0 auto;
-  height: 42px;
-}
-.sitetoolbar__input {
-  height: 42px;
-  width: 0;
-  padding: 0 42px 0 15px;
-  border: none;
-  border-bottom: 2px solid transparent;
-  outline: none;
-  background: transparent;
-  transition: .4s cubic-bezier(0, 0.8, 0, 1);
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
-
-}
-.sitetoolbar__input:focus {
-  width: 300px;
-  z-index: 1;
-  border-bottom: 2px solid #F9F0DA;
-}
-.sitetoolbar__inputbutton {
-  border: none;
-  height: 42px;
-  width: 42px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  cursor: pointer;
-}
-.sitetoolbar__inputbutton:before {
-
-  font-size: 16px;
-
-}
-.main__header--line{
-  position: fixed;
-  top: 60px;
-  left: 0px;
-  z-index: 54;
-  background: gray;
-  margin: 0px;
-  width: 100%;
-  height: 3px;
 }
 
 
