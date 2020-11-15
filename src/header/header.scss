@@ -10,7 +10,8 @@ body {
   line-height: 24px;
   display: flex;
   border-collapse: collapse;
-  border-bottom: 0px solid ;
+  border-bottom: 0 solid ;
+  align-items: center;
 }
 .sitetoolbar__sticky{
   width: 100%;
@@ -25,11 +26,6 @@ body {
   flex-shrink: 0;
 }
 
-.btn__lang{
-  border: none;
-  background-color: #fff;
-
-}
 .sitetoolbar__logo{
   padding: 0 32px 0 22px;
   white-space: nowrap;
@@ -38,7 +34,6 @@ body {
 }
 .sitetoolbar__sections{
   display: flex;
-  justify-content: left;
   flex-grow: 1;
   flex-shrink: 0;
   padding: 18px 0;
@@ -58,10 +53,11 @@ a {
   text-decoration: none;
   color: #7f7171;
 }
-.sitetoolbar__logo_normal{
-  left: 60px;
+.sitetoolbar__sections-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .sitetoolbar__sections-list{
   display: flex;
   flex-wrap: wrap;
@@ -102,7 +98,6 @@ a {
   transition-property: all;
   transition-duration: .4s;
   transition-timing-function: ease;
-
 }
 
 
@@ -120,19 +115,15 @@ a {
   position: relative;
   border: 2px solid gray;
   border-radius: 50px;
-
 }
 
 .btn-3 {
   overflow: hidden;
   position: relative;
-
-
 }
 
 .btn-3 span {
   z-index: 1;
-
 }
 
 .btn-3:after {
@@ -150,14 +141,13 @@ a {
 
 }
 .button_currency{
-
   display: inline-block;
   white-space: nowrap;
   border-radius: 34px;
 }
 .btn-3:hover:after {
   height:100px;
-  width: 170px;
+  width: 175px;
   border-radius: 20px;
   background: #e05850;
 
